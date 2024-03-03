@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "iflnJPFAYmQsw4QwK0Gy6HfnvsSHF1yScM2WgC4+VQowTHe50sNAZB+AUGsS6TuijN3q4YK0//25s2s5v3zoEA==",
+  "success": true,
+  "projectFilePath": "/home/filip/Desktop/dev/csharp/BlockTech/BlockTech/BlockTech.csproj",
+  "expectedPackageFiles": [
+    "/home/filip/.nuget/packages/opentk/4.8.2/opentk.4.8.2.nupkg.sha512",
+    "/home/filip/.nuget/packages/opentk.audio.openal/4.8.2/opentk.audio.openal.4.8.2.nupkg.sha512",
+    "/home/filip/.nuget/packages/opentk.compute/4.8.2/opentk.compute.4.8.2.nupkg.sha512",
+    "/home/filip/.nuget/packages/opentk.core/4.8.2/opentk.core.4.8.2.nupkg.sha512",
+    "/home/filip/.nuget/packages/opentk.graphics/4.8.2/opentk.graphics.4.8.2.nupkg.sha512",
+    "/home/filip/.nuget/packages/opentk.input/4.8.2/opentk.input.4.8.2.nupkg.sha512",
+    "/home/filip/.nuget/packages/opentk.mathematics/4.8.2/opentk.mathematics.4.8.2.nupkg.sha512",
+    "/home/filip/.nuget/packages/opentk.redist.glfw/3.3.8.39/opentk.redist.glfw.3.3.8.39.nupkg.sha512",
+    "/home/filip/.nuget/packages/opentk.windowing.common/4.8.2/opentk.windowing.common.4.8.2.nupkg.sha512",
+    "/home/filip/.nuget/packages/opentk.windowing.desktop/4.8.2/opentk.windowing.desktop.4.8.2.nupkg.sha512",
+    "/home/filip/.nuget/packages/opentk.windowing.graphicslibraryframework/4.8.2/opentk.windowing.graphicslibraryframework.4.8.2.nupkg.sha512",
+    "/home/filip/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
