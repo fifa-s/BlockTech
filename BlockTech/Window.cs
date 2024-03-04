@@ -13,13 +13,22 @@ public class Game : GameWindow
 {
     private float[] _vertices = {
            // position      //color
-         0.0f, 0.5f, 0.0f, 1.0f, 0.0f, 0.0f,
-        -0.5f,-0.5f, 0.0f, 0.0f, 1.0f, 0.0f,
-         0.5f,-0.5f, 0.0f, 0.0f, 0.0f, 1.0f
+        -0.9f,-0.9f, 0.0f, 1.0f, 0.0f, 0.0f,
+         0.9f,-0.9f, 0.0f, 0.0f, 1.0f, 0.0f,
+         0.9f, 0.9f, 0.0f, 0.0f, 0.0f, 1.0f,
+        -0.9f, 0.9f, 0.0f, 0.0f, 0.0f, 0.0f,
+    };
+
+    private uint[] _indices =
+    {
+        0, 1, 3,
+        1, 2, 3
+
     };
 
     private int _vao;
     private int _vbo;
+    private int _ebo;
     private Shader? _shader;
 
 
@@ -44,6 +53,7 @@ public class Game : GameWindow
         this._vao = GL.GenVertexArray();        
 
         GL.BindVertexArray(this._vao);
+
         // VertexAttribPointer(index, size, type, normalized, stride, offset);
         GL.VertexAttribPointer(0, 3, VertexAttribPointerType.Float, false, 6 * sizeof(float), 0);
         GL.EnableVertexArrayAttrib(this._vao, 0);
@@ -51,10 +61,21 @@ public class Game : GameWindow
         GL.VertexAttribPointer(1, 3, VertexAttribPointerType.Float, false, 6 * sizeof(float), 3 * sizeof(float));
         GL.EnableVertexArrayAttrib(this._vao, 1);
 
-        // unbind
+        // unbind vbo
         GL.BindBuffer(BufferTarget.ArrayBuffer, 0);
-        GL.BindVertexArray(0);
 
+        this._ebo = GL.GenBuffer();
+        GL.BindBuffer(BufferTarget.ElementArrayBuffer, this._ebo);
+
+        GL.BufferData(BufferTarget.ElementArrayBuffer, this._indices.Length * sizeof(uint), this._indices, BufferUsageHint.StaticDraw);
+
+        // unbind ebo
+        GL.BindBuffer(BufferTarget.ArrayBuffer, 0);
+        
+        //unbind vao
+        GL.BindVertexArray(0);
+        
+        
         this._shader = new Shader("default.vert", "default.frag");
         this._shader.Use();
 
@@ -68,6 +89,7 @@ public class Game : GameWindow
 
         GL.DeleteVertexArray(this._vao);
         GL.DeleteBuffer(this._vbo);
+        GL.DeleteBuffer(this._ebo);
     }
     protected override void OnRenderFrame(FrameEventArgs args)
     {
@@ -75,7 +97,7 @@ public class Game : GameWindow
         GL.Clear(ClearBufferMask.ColorBufferBit);
 
         GL.BindVertexArray(this._vao);
-        GL.DrawArrays(PrimitiveType.Triangles, 0, 3);
+        GL.DrawElements(PrimitiveType.Triangles, this._indices.Length, DrawElementsType.UnsignedInt, 0);
 
 
         Context.SwapBuffers();
@@ -85,5 +107,19 @@ public class Game : GameWindow
     protected override void OnUpdateFrame(FrameEventArgs args)
     {
         base.OnUpdateFrame(args);
+
+        KeyboardState input = KeyboardState;
+
+        if (input.IsKeyPressed(Keys.F11))
+        {
+            if (this.WindowState == WindowState.Fullscreen)
+            {
+                this.WindowState = WindowState.Maximized;
+            }
+            else
+            {
+                this.WindowState = WindowState.Fullscreen;
+            }
+        }
     }
 }

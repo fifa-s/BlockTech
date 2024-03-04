@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\u\u017Eivatel\\source\\repos\\BlockTech\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33EF5A3A-9517-48F2-8CB0-E458131ABB49}|BlockTech\\BlockTech.csproj|c:\\users\\u\u017Eivatel\\source\\repos\\blocktech\\blocktech\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EF5A3A-9517-48F2-8CB0-E458131ABB49}|BlockTech\\BlockTech.csproj|solutionrelative:blocktech\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EF5A3A-9517-48F2-8CB0-E458131ABB49}|BlockTech\\BlockTech.csproj|c:\\users\\u\u017Eivatel\\source\\repos\\blocktech\\blocktech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EF5A3A-9517-48F2-8CB0-E458131ABB49}|BlockTech\\BlockTech.csproj|solutionrelative:blocktech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EF5A3A-9517-48F2-8CB0-E458131ABB49}|BlockTech\\BlockTech.csproj|c:\\users\\u\u017Eivatel\\source\\repos\\blocktech\\blocktech\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EF5A3A-9517-48F2-8CB0-E458131ABB49}|BlockTech\\BlockTech.csproj|solutionrelative:blocktech\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33EF5A3A-9517-48F2-8CB0-E458131ABB49}|BlockTech\\BlockTech.csproj|c:\\users\\u\u017Eivatel\\source\\repos\\blocktech\\blocktech\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33EF5A3A-9517-48F2-8CB0-E458131ABB49}|BlockTech\\BlockTech.csproj|solutionrelative:blocktech\\shader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Window.cs",
+              "DocumentMoniker": "C:\\Users\\u\u017Eivatel\\source\\repos\\BlockTech\\BlockTech\\Window.cs",
+              "RelativeDocumentMoniker": "BlockTech\\Window.cs",
+              "ToolTip": "C:\\Users\\u\u017Eivatel\\source\\repos\\BlockTech\\BlockTech\\Window.cs",
+              "RelativeToolTip": "BlockTech\\Window.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAD4v14AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T16:50:11.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shader.cs",
+              "DocumentMoniker": "C:\\Users\\u\u017Eivatel\\source\\repos\\BlockTech\\BlockTech\\Shader.cs",
+              "RelativeDocumentMoniker": "BlockTech\\Shader.cs",
+              "ToolTip": "C:\\Users\\u\u017Eivatel\\source\\repos\\BlockTech\\BlockTech\\Shader.cs",
+              "RelativeToolTip": "BlockTech\\Shader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T16:41:34.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\u\u017Eivatel\\source\\repos\\BlockTech\\BlockTech\\Program.cs",
+              "RelativeDocumentMoniker": "BlockTech\\Program.cs",
+              "ToolTip": "C:\\Users\\u\u017Eivatel\\source\\repos\\BlockTech\\BlockTech\\Program.cs",
+              "RelativeToolTip": "BlockTech\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T16:39:39.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\u\u017Eivatel\\source\\repos\\BlockTech\\BlockTech\\Logger.cs",
+              "RelativeDocumentMoniker": "BlockTech\\Logger.cs",
+              "ToolTip": "C:\\Users\\u\u017Eivatel\\source\\repos\\BlockTech\\BlockTech\\Logger.cs",
+              "RelativeToolTip": "BlockTech\\Logger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T16:14:32.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

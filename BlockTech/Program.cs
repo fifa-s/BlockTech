@@ -12,10 +12,10 @@ class Program
 
         NativeWindowSettings window_settings = new NativeWindowSettings()
         {
-                ClientSize = new Vector2i(800, 600),
-                Title = "LearnOpenTK - Creating a Window",
-                // This is needed to run on macos
-                Flags = ContextFlags.ForwardCompatible,
+            ClientSize = new Vector2i(800, 600),
+            Title = "BlockTech",
+            // This is needed to run on macos
+            Flags = ContextFlags.ForwardCompatible,
         }; 
         using(Game game = new Game(GameWindowSettings.Default, window_settings)) {
             game.Run();
