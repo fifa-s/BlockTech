@@ -1,5 +1,5 @@
 .vscode
 
-/obj/
-/bin/
-/.vs/
+obj/
+bin/
+.vs/
