@@ -14,8 +14,8 @@ public class Shader
    
     public Shader(string vertPath, string fragPath)
     {
-        vertPath = "../../../Shaders/" + vertPath;
-        fragPath = "../../../Shaders/" + fragPath;
+        vertPath = "Shaders/" + vertPath;
+        fragPath = "Shaders/" + fragPath;
 
         string shaderSource = File.ReadAllText(vertPath);
         int vertexShader = GL.CreateShader(ShaderType.VertexShader);
