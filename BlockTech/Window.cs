@@ -46,6 +46,9 @@ public class Game : GameWindow
     {
         base.OnLoad();
 
+        this.MinimumSize = new Vector2i(100, 100);
+
+
         this._vbo = GL.GenBuffer();
         GL.BindBuffer(BufferTarget.ArrayBuffer, this._vbo);
         GL.BufferData(BufferTarget.ArrayBuffer, this._vertices.Length * sizeof(float), this._vertices, BufferUsageHint.StaticDraw);
